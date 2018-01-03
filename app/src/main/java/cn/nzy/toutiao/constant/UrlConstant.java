@@ -6,5 +6,5 @@ package cn.nzy.toutiao.constant;
  */
 
 public interface UrlConstant {
-    String BASE_URL = "http://m2.qiushibaike.com/";
+    String BASE_URL = "http://is.snssdk.com/api/news/feed/v51/";
 }

@@ -1,25 +1,26 @@
 package cn.nzy.toutiao;
 
-import org.junit.Test;
+import android.util.Log;
 
 import java.text.NumberFormat;
 import java.util.Locale;
 
 /**
- * Example local unit test, which will execute on the development machine (host).
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ * on 2017/12/27.
+ * created by niezhiyang
  */
-public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() throws Exception {
-        int data = 123463521;
+
+public class Text {
+    public void useAppContext() throws Exception {
+        int data = 2;
         double money = data / 100.0;
         // 想要转换成指定国家的货币格式
         NumberFormat format = NumberFormat.getCurrencyInstance(Locale.CHINA);
         format.setMaximumFractionDigits(2);
         String numString = format.format(money);
         String substring = numString.substring(1);
+        Log.i("wwwwwwwww",substring+"---");
         System.out.println(substring+"---");
+
     }
 }
