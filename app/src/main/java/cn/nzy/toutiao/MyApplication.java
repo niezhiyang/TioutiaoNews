@@ -22,7 +22,7 @@ public class MyApplication extends Application {
             return;
         }
         LeakCanary.install(this);
-        //初始化Stetho
+        //初始化Stetho   /////////////
         Stetho.initializeWithDefaults(this);
         Utils.init(this);
         Logger.addLogAdapter(new AndroidLogAdapter());
