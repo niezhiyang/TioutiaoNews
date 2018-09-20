@@ -14,7 +14,7 @@ import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 
 public class TwoActivity extends RxAppCompatActivity {
-
+////////////////////////////
     private static final String TAG = "RxLifecycleAndroid";
 
     @Override
